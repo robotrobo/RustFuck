@@ -11,7 +11,7 @@ Also to test if neovim behaves well with rust (PS: It really does!)
 1. Run `cargo build --release` to build the interpreter, rust should automatically install all deps.
 2. Run the binary like so `./brainFuck --input ./inputFile.b`
 
-This interpreter implements the following 'canonical' reference: ['canonical'](http://brainfuck.org/brainfuck.html).
+This interpreter implements the ['canonical'](http://brainfuck.org/brainfuck.html) reference.
 
 ### Some changes/choices
 - '&' inserts an EOF character while taking in input. (EOF sets memory cell to 0 if entered while input(`,`) is required)
@@ -23,7 +23,7 @@ This interpreter implements the following 'canonical' reference: ['canonical'](h
 
 
 ## Examples
-()[examples/] has some really cool examples, most of them are taken from ('brainfuck.org')[http://brainfuck.org/brainfuck.html] or wikipedia. 
+[examples](examples/) has some really cool examples, most of them are taken from ['brainfuck.org'](http://brainfuck.org/brainfuck.html) or wikipedia. 
 Try GOL.b and numwarp.b
 
 
