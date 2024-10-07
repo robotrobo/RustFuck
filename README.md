@@ -1,4 +1,4 @@
-# BrainFuck Interpreter
+# RustFuck - Oh Fuck, its Rust
 
 ## Intro
 
